@@ -2,8 +2,14 @@
 * {
   box-sizing: border-box;
 }
-.nav_button {
-  background-color: lightgrey;
+body {
+  font-family: sans-serif;
+}
+.nav_button a {
+  background-color: white;
+  border: solid 2px rgb(35, 68, 149);
+  color: #234495;
   text-decoration: none;
-
+  border-radius: 18px;
+  padding: 10px 20px;
 }

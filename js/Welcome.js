@@ -7,9 +7,9 @@ export default React.createClass({
       <section>
         <h1>Welcome!</h1>
         <div className="nav_wrapper">
-          <button className="nav_button"><Link to="/">Home</Link></button>
-          <button className="nav_button"><Link to="/Blog">Blog</Link></button>
-          <button className="nav_button"><Link to="/Projects">Projects</Link></button>
+          <span className="nav_button"><Link to="/">Home</Link></span>
+          <span className="nav_button"><Link to="/Blog">Blog</Link></span>
+          <span className="nav_button"><Link to="/Projects">Projects</Link></span>
         </div>
         <p>
           <b>Nicolas Roybal</b>
