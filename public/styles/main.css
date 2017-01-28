@@ -3,13 +3,37 @@
   box-sizing: border-box;
 }
 body {
-  font-family: sans-serif;
+  font-family: Helvetica;
+  margin: .4em;
 }
 .nav_button a {
   background-color: white;
   border: solid 2px rgb(35, 68, 149);
   color: #234495;
+  margin-right: 0.2em;
   text-decoration: none;
-  border-radius: 18px;
+  border-radius: 20px;
   padding: 10px 20px;
+}
+.gitHub_button {
+  background-color: white;
+  border: solid 2px rgb(35, 68, 149);
+  color: #234495;
+  margin-right: 0.2em;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+.center_wrapper {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+@@media only screen and (min-width: 320px) {
+  .center_wrapper {
+    /*margin-left: auto;
+    margin-right: auto;*/
+    width: 90%;
+  }
 }

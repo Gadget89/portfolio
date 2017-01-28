@@ -4,9 +4,11 @@ import { Link } from 'react-router'
 export default React.createClass({
   render() {
     return (
-      <section>
+      <section className="center_wrapper">
         <h1>Blog</h1>
-        <button className="nav_button"><Link to="/">Home</Link></button>
+        <div>
+          <span className="nav_button"><Link to="/">Home</Link></span>
+        </div>        
         <p>
           <b>Past != Future </b><br></br>
         This week marks the half way point of my journey through the Front End Engineering program at The Iron Yard in San Antonio, TX. In six weeks I have grown my understanding of software development but more than anything else, I feel the most important thing I’ve accomplished in this course is to learn how to learn. That may sound silly, but it has helped influence my perspective on how I approach obstacles.<br></br>
