@@ -10,16 +10,17 @@ body {
   background-color: white;
   border: solid 2px rgb(35, 68, 149);
   color: #234495;
-  margin-right: 0.2em;
+  margin-right: 1em;
   text-decoration: none;
   border-radius: 20px;
   padding: 10px 20px;
 }
-.gitHub_button {
+.anchor_button {
   background-color: white;
   border: solid 2px rgb(35, 68, 149);
   color: #234495;
-  margin-right: 0.2em;
+  font-size: 24px;
+  margin-right: 0.4em;
   text-decoration: none;
   border-radius: 20px;
   padding: 10px 20px;
@@ -30,6 +31,10 @@ body {
   margin-right: auto;
   width: 90%;
 }
+.page_title {
+  margin: 2em;
+}
+/************************Responsive Web Page Section***************************/
 @@media only screen and (min-width: 320px) {
   .center_wrapper {
     /*margin-left: auto;
