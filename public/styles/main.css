@@ -6,6 +6,9 @@ body {
   font-family: Helvetica;
   margin: .4em;
 }
+.nav_bar {
+  margin: 1em auto;
+}
 .nav_button a {
   background-color: white;
   border: solid 2px rgb(35, 68, 149);
@@ -19,7 +22,6 @@ body {
   background-color: white;
   border: solid 2px rgb(35, 68, 149);
   color: #234495;
-  font-size: 24px;
   margin-right: 0.4em;
   text-decoration: none;
   border-radius: 20px;
@@ -27,12 +29,21 @@ body {
 }
 .center_wrapper {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   width: 90%;
 }
 .page_title {
-  margin: 2em;
+  margin: .5em;
+}
+.profile_img {
+  width: 20em;
+  box-shadow: 0 8px 29px -6px black;
+  /*border-radius: 100%;*/
+}
+.shadow_box {
+  box-shadow: 0 8px 29px -6px black;
+  padding: 4em;
+  text-align: left;
 }
 /************************Responsive Web Page Section***************************/
 @@media only screen and (min-width: 320px) {
