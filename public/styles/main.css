@@ -6,6 +6,7 @@ body {
   font-family: Helvetica;
   margin: .4em;
 }
+
 .nav_bar {
   margin: 1em auto;
 }
@@ -18,10 +19,28 @@ body {
   border-radius: 20px;
   padding: 10px 20px;
 }
+.nav_button:hover a {
+  background-color: rgb(35, 68, 149);
+  border: solid 2px rgb(35, 68, 149);
+  color: white;
+  margin-right: 1em;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
 .anchor_button {
   background-color: white;
   border: solid 2px rgb(35, 68, 149);
   color: #234495;
+  margin-right: 0.4em;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+.anchor_button:hover {
+  background-color: rgb(35, 68, 149);
+  border: solid 2px rgb(35, 68, 149);
+  color: white;
   margin-right: 0.4em;
   text-decoration: none;
   border-radius: 20px;

@@ -10,7 +10,7 @@ export default React.createClass({
           <span className="nav_button"><Link to="/">Home <i className="fa fa-home"></i></Link></span>
             <a className="anchor_button" target="_blank" href="https://medium.com/@nicolas.roybal/past-future-f982a66d5a66#.m9baco2be">Medium <i className="fa fa-medium"></i></a>
         </nav>
-        <p>
+        <p className="shadow_box">
           <b>Past != Future </b><br></br>
         This week marks the half way point of my journey through the Front End Engineering program at The Iron Yard in San Antonio, TX. In six weeks I have grown my understanding of software development but more than anything else, I feel the most important thing I’ve accomplished in this course is to learn how to learn. That may sound silly, but it has helped influence my perspective on how I approach obstacles.<br></br>
       The word “learning” seems straightforward, to simply gain knowledge through studying and instruction. This is true and it does indeed work. Everything is a learning experience and we have the opportunity to improve from our knowledge. Failures are a fundamental part of learning. If you strive to improve, you truly have learned from you past experiences. Don’t be static, ask questions, ask for help, admit when you don’t know something, and continue improving.<br></br>
