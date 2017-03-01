@@ -6,10 +6,10 @@ export default React.createClass({
     return (
       <section className="center_wrapper">
         <h1 className="page_title">Blog</h1>
-        <div>
-          <span className="nav_button"><Link to="/">Home</Link></span>
-            <a className="anchor_button" target="_blank" href="https://medium.com/@nicolas.roybal/past-future-f982a66d5a66#.m9baco2be">Medium</a>
-        </div>
+        <nav className="nav_bar">
+          <span className="nav_button"><Link to="/">Home <i className="fa fa-home"></i></Link></span>
+            <a className="anchor_button" target="_blank" href="https://medium.com/@nicolas.roybal/past-future-f982a66d5a66#.m9baco2be">Medium <i className="fa fa-medium"></i></a>
+        </nav>
         <p>
           <b>Past != Future </b><br></br>
         This week marks the half way point of my journey through the Front End Engineering program at The Iron Yard in San Antonio, TX. In six weeks I have grown my understanding of software development but more than anything else, I feel the most important thing I’ve accomplished in this course is to learn how to learn. That may sound silly, but it has helped influence my perspective on how I approach obstacles.<br></br>

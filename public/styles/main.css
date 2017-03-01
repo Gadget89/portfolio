@@ -38,7 +38,7 @@ body {
 .profile_img {
   width: 20em;
   box-shadow: 0 8px 29px -6px black;
-  /*border-radius: 100%;*/
+  margin-top: 1em;
 }
 .shadow_box {
   box-shadow: 0 8px 29px -6px black;

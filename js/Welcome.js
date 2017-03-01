@@ -1,15 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router'
-
+var FontAwesome = require('react-fontawesome');
 export default React.createClass({
   render() {
     return(
       <section className="center_wrapper">
         <h1 className="page_title">Welcome!</h1>
         <nav className="nav_bar">
-          <span className="nav_button"><Link to="/Blog">Blog</Link></span>
-          <span className="nav_button"><Link to="/Projects">Projects</Link></span>
-          <a className="anchor_button"target="_blank" href="https://github.com/Gadget89">GitHub</a>
+          <span className="nav_button"><Link to="/Blog">Blog <i className="fa fa-pencil-square-o"></i></Link></span>
+          <span className="nav_button"><Link to="/Projects">Projects <i className="fa fa-code"></i></Link></span>
+          <a className="anchor_button"target="_blank" href="https://github.com/Gadget89">GitHub <i className="fa fa-github"></i></a>
         </nav>
         <img className="profile_img" src="styles/assets/me.jpg"></img>
         <p>
