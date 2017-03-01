@@ -15,6 +15,8 @@ export default React.createClass({
         <p>
           <b>Nicolas Roybal</b>
           <br></br>
+          Web Developer
+          <br></br>
           San Antonio, TX
         </p>
         <p className="shadow_box">

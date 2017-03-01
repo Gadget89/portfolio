@@ -3,6 +3,8 @@
   box-sizing: border-box;
 }
 body {
+  /*opacity: .2;*/
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSIxMDAiPgo8cmVjdCB3aWR0aD0iNTYiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSI+PC9yZWN0Pgo8cGF0aCBkPSJNMjggNjZMMCA1MEwwIDE2TDI4IDBMNTYgMTZMNTYgNTBMMjggNjZMMjggMTAwIiBmaWxsPSJub25lIiBzdHJva2U9ImxpZ2h0Z3JleSIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+CjxwYXRoIGQ9Ik0yOCAwTDI4IDM0TDAgNTBMMCA4NEwyOCAxMDBMNTYgODRMNTYgNTBMMjggMzQiIGZpbGw9Im5vbmUiIHN0cm9rZT0ibGlnaHRncmV5IiBzdHJva2Utd2lkdGg9IjEiPjwvcGF0aD4KPC9zdmc+");
   font-family: Helvetica;
   margin: .4em;
 }
@@ -60,10 +62,12 @@ body {
   margin-top: 1em;
 }
 .shadow_box {
+  background-color: white;
   box-shadow: 0 8px 29px -6px black;
   padding: 4em;
   text-align: left;
 }
+
 /************************Responsive Web Page Section***************************/
 @@media only screen and (min-width: 320px) {
   .center_wrapper {
