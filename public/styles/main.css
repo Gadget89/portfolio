@@ -8,9 +8,36 @@ body {
   font-family: Helvetica;
   margin: .4em;
 }
+a {
+  color: white;
+}
+.hex_top {
+width: 0;
+border-bottom: 0.938em solid rgb(35, 68, 149);
+border-left: 1.625em solid transparent;
+border-right: 1.625em solid transparent;
+}
+.hex_middle {
+width: 3.250em;
+height: 1.875em;
+background-color: rgb(35, 68, 149);
+}
+.hex_bottom {
+width: 0;
+border-top: 0.938em solid rgb(35, 68, 149);
+border-left: 1.625em solid transparent;
+border-right: 1.625em solid transparent;
+margin-left: 0px;
+}
 
 .nav_bar {
-  margin: 1em auto;
+  margin-left: 1.5em;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: inline-block;
+  position: fixed;
+  padding-top: 3em;
+  text-align: center;
 }
 .nav_button a {
   background-color: white;
