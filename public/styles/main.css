@@ -11,6 +11,51 @@ body {
 a {
   color: white;
 }
+.title_letter1 {
+  font-size: 3.5em;
+  color: white;
+  margin-left: 1.08em;
+}
+.title_letter1-2 {
+  font-size: 3.5em;
+  color: rgb(35, 68, 149);
+  margin-left: 0.04em;
+}
+.title_letter2 {
+  font-size: 3.5em;
+  color: white;
+  margin-left: 1.08em;
+}
+.title_letter2-2 {
+  font-size: 3.5em;
+  color: rgb(35, 68, 149);
+  margin-left: 0.09em;
+}
+.hex {
+  margin-left: 1.5em;
+}
+.new_hex {
+  margin-left: 3.2em;
+  margin-top: -1.6em;
+}
+.hex1 {
+width: 0;
+border-bottom: 30px solid rgb(35, 68, 149);
+border-left: 52px solid transparent;
+border-right: 52px solid transparent;
+}
+.hex2 {
+  width: 104px;
+height: 60px;
+background: rgb(35, 68, 149);
+}
+.hex3 {
+width: 0;
+border-top: 30px solid rgb(35, 68, 149);
+border-left: 52px solid transparent;
+border-right: 52px solid transparent;
+}
+
 .hex_top {
 width: 0;
 border-bottom: 0.938em solid rgb(35, 68, 149);
@@ -93,6 +138,14 @@ margin-left: 0px;
   box-shadow: 0 8px 29px -6px black;
   padding: 4em;
   text-align: left;
+}
+.main_title {
+  color: rgb(35, 68, 149);
+  font-size: 5em;
+  text-shadow: -4px 3px 49px white;
+}
+.sub_title {
+  font-size: 2em;
 }
 
 /************************Responsive Web Page Section***************************/

@@ -5,6 +5,20 @@ export default React.createClass({
   render() {
     return(
       <main className="main_wrapper">
+        <section className="hex">
+      <div className="hex-row">
+        <div className="hex1"></div>
+        <div className="hex2"><b className="title_letter1">N</b><b className="title_letter1-2">icolas</b></div>
+        <div className="hex3"></div>
+      </div>
+
+      <div className="new_hex">
+        <div className="hex1"></div>
+        <div className="hex2"><b className="title_letter2">R</b><b className="title_letter2-2">oybal</b></div>
+        <div className="hex3"></div>
+      </div>
+
+        </section>
         <nav className="nav_bar">
           <div className="hex_top"></div>
           <div className="hex_middle"><a target="_blank" href="https://github.com/Gadget89"><i className="fa fa-github fa-2x"></i></a></div>
@@ -15,7 +29,7 @@ export default React.createClass({
           <div className="hex_bottom"></div>
 
           <div className="hex_top"></div>
-          <div className="hex_middle"><span><Link to="/Blog"> <i className="fa fa-code fa-2x"></i></Link></span></div>
+          <div className="hex_middle"><span><Link to="/Projects"> <i className="fa fa-code fa-2x"></i></Link></span></div>
           <div className="hex_bottom"></div>
 
           <div className="hex_top"></div>
@@ -25,11 +39,9 @@ export default React.createClass({
         <section className="center_wrapper">
         <img className="profile_img" src="styles/assets/me.jpg"></img>
         <p>
-          <b>Nicolas Roybal</b>
+          <b className="sub_title">Web Developer</b>
           <br></br>
-          Web Developer
-          <br></br>
-          San Antonio, TX
+          <b className="sub_title">San Antonio, TX</b>
         </p>
         <p className="shadow_box">
           <b>Bio</b>
