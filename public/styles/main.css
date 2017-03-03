@@ -8,9 +8,9 @@ body {
   font-family: Helvetica;
   margin: .4em;
 }
-a {
+/*a {
   color: white;
-}
+}*/
 .title_letter1 {
   font-size: 3.5em;
   color: white;
@@ -86,23 +86,12 @@ margin-left: 0px;
   padding-top: 3em;
   text-align: center;
 }
-.nav_button a {
-  background-color: white;
-  border: solid 2px rgb(35, 68, 149);
-  color: #234495;
-  margin-right: 1em;
-  text-decoration: none;
-  border-radius: 20px;
-  padding: 10px 20px;
-}
-.nav_button:hover a {
-  background-color: rgb(35, 68, 149);
-  border: solid 2px rgb(35, 68, 149);
+.nav_button {
   color: white;
-  margin-right: 1em;
-  text-decoration: none;
-  border-radius: 20px;
-  padding: 10px 20px;
+  transition: color 0.7s ease;
+}
+.nav_button:hover {
+  color: yellow;
 }
 .anchor_button {
   background-color: white;
