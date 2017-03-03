@@ -17,6 +17,11 @@ export default React.createClass({
         <div className="hex2"><b className="title_letter2">R</b><b className="title_letter2-2">oybal</b></div>
         <div className="hex3"></div>
       </div>
+      <div>
+        <p className="sub_title">
+          <b>Online Portfolio</b>
+        </p>
+      </div>
 
         </section>
         <nav className="nav_bar">
@@ -41,11 +46,7 @@ export default React.createClass({
 
         <section className="center_wrapper">
         <img className="profile_img" src="styles/assets/me.jpg"></img>
-        <p>
-          <b className="sub_title">Web Developer</b>
-          <br></br>
-          <b className="sub_title">San Antonio, TX</b>
-        </p>
+
         <p className="shadow_box">
           <b>Bio</b>
           <br></br>

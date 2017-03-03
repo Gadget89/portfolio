@@ -86,11 +86,15 @@ margin-left: 0px;
   padding-top: 3em;
   text-align: center;
 }
-.nav_button {
+.nav_button,
+.title_letter1,
+.title_letter2 {
   color: white;
-  transition: color 0.7s ease;
+  transition: color 0.8s ease;
 }
-.nav_button:hover {
+.nav_button:hover,
+.title_letter1:hover,
+.title_letter2:hover {
   color: yellow;
 }
 .anchor_button {
@@ -136,7 +140,14 @@ margin-left: 0px;
   text-shadow: -4px 3px 49px white;
 }
 .sub_title {
-  font-size: 2em;
+font-size: 1.5em;
+margin: 0.5em 0 0 2.8em;
+width: 8em;
+text-align: center;
+border-top: solid 0.05em;
+position: absolute;
+z-index: 1;
+color: rgb(35, 68, 149);
 }
 
 /************************Responsive Web Page Section***************************/
