@@ -19,7 +19,7 @@ export default React.createClass({
       </div>
       <div>
         <p className="sub_title">
-          <b>Online Portfolio</b>
+          <b>Portfolio</b>
         </p>
       </div>
 
@@ -42,12 +42,18 @@ export default React.createClass({
             <div className="hex_middle"><i className="fa fa-codepen fa-2x"></i></div>
             <div className="hex_bottom"></div>
           </a>
+          <a className="nav_button" target="_blank" href="http://codepen.io/nickr999/">
+            <div className="hex_top"></div>
+            <div className="hex_middle"><i className="fa fa-linkedin fa-2x"></i></div>
+            <div className="hex_bottom"></div>
+          </a>
         </nav>
 
         <section className="center_wrapper">
-        <img className="profile_img" src="styles/assets/me.jpg"></img>
+
 
         <p className="shadow_box">
+          <img className="profile_img" src="styles/assets/me.jpg"></img>
           <b>Bio</b>
           <br></br>
           I was born and raised in Northeastern New Mexico. Growing up in New Mexico I picked up a few hobbies including scoccer, skiing, and I gained my second degree black belt in Tae Kwon Do. In 2015 I relocated to San Antonio, TX to see what oppertunities a bigger city would have for me. I quickly found many jobs but ultimatly decided that I wanted to start on a new career path. Initally I was just going to "go back to school" but I found that was not time or cost effective for me. Luckily I stumbled upon a boot camp style front end engineering program at a school called The Iron Yard. I am currently attending the program and a little more than half way through it. Follow me through my journey here.
