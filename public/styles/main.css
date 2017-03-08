@@ -9,87 +9,114 @@ body {
   margin: .4em;
 }
 .article_img {
-  width: 61em;
+  width: 40em;
 }
 .article_title {
-  color: rgb(35, 68, 149);
+  color: #3F51B5;
 }
 .article_link {
-  color: rgb(35, 68, 149);
+  color: #3F51B5;
   text-decoration: none;
 }
 .title_letter1 {
   font-size: 3.5em;
-  color: white;
+  color: #3F51B5;
   margin-left: 1.08em;
 }
 .title_letter1-2 {
   font-size: 3.5em;
-  color: rgb(35, 68, 149);
+  color: #3F51B5;
   margin-left: 0.04em;
 }
 .title_letter2 {
   font-size: 3.5em;
-  color: white;
+  color: #3F51B5;
   margin-left: 1.08em;
 }
 .title_letter2-2 {
-
   font-size: 3.5em;
-  color: rgb(35, 68, 149);
+  color: #3F51B5;
   margin-left: 0.09em;
 
 }
 .hex {
-  margin: 0 auto;
-  width: 19em;
+  margin: 0 auto 14em;
+  width: 37em;
 }
 .new_hex {
-  margin-left: 3.2em;
+  margin-left: 13.2em;
   margin-top: -1.6em;
+}
+.hex_row {
+  margin-left: 9em;
 }
 .hex1 {
 width: 0;
-border-bottom: 30px solid rgb(35, 68, 149);
+border-bottom: 30px solid #C6FF00;
 border-left: 52px solid transparent;
 border-right: 52px solid transparent;
 }
 .hex2 {
   width: 104px;
 height: 60px;
-background: rgb(35, 68, 149);
+background: #C6FF00;
 }
 .hex3 {
 width: 0;
-border-top: 30px solid rgb(35, 68, 149);
+border-top: 30px solid #C6FF00;
 border-left: 52px solid transparent;
 border-right: 52px solid transparent;
 }
 
 .hex_top {
 width: 0;
-border-bottom: 0.938em solid rgb(35, 68, 149);
+border-bottom: 0.938em solid #F57C00;
 border-left: 1.625em solid transparent;
 border-right: 1.625em solid transparent;
 }
 .hex_middle {
 width: 3.250em;
 height: 1.875em;
-background-color: rgb(35, 68, 149);
+background-color: #F57C00;
 }
 .hex_bottom {
 width: 0;
-border-top: 0.938em solid rgb(35, 68, 149);
+border-top: 0.938em solid #F57C00;
 border-left: 1.625em solid transparent;
 border-right: 1.625em solid transparent;
 margin-left: 0px;
+}
+
+.welcome_hex {
+  width: 37em;
+  /*margin-left: 3.2em;
+  margin-top: -1.6em;*/
+}
+
+.hex1w {
+width: 0;
+border-bottom: 168px solid #E8EAF6;
+border-left: 291.2px solid transparent;
+border-right: 291.2px solid transparent;
+}
+.hex2w {
+  width: 582.4px;
+height: 336px;
+background: #E8EAF6;
+}
+.hex3w {
+width: 0;
+border-top: 168px solid #E8EAF6;
+border-left: 291.2px solid transparent;
+border-right: 291.2px solid transparent;
+margin-top: 7.6em;
 }
 
 .header_content {
   display: inline-block;
   margin-right: 1em;
   right: 0;
-  color: white;
+  color: #C6FF00;
   list-style: none;
 }
 .temp {
@@ -106,7 +133,7 @@ margin-left: 0px;
 }
 
 .header_fixed {
-  background-color: rgb(35, 68, 149);
+  background-color: #1A237E;
   box-shadow: 0 8px 6px -6px black;
   color: white;
   position: fixed;
@@ -117,7 +144,7 @@ margin-left: 0px;
 }
 
 .header_reletive {
-  background-color: rgb(35, 68, 149);
+  background-color: #1A237E;
   color: white;
   left: 0;
   right: 0;
@@ -132,23 +159,20 @@ margin-left: 0px;
   margin-bottom: auto;
   display: inline-block;
   position: fixed;
-  padding-top: 1em;
+  padding-top: 13em;
+  left: 0;
   text-align: center;
 }
-.nav_button,
-.title_letter1,
-.title_letter2 {
+.nav_button {
   color: white;
   transition: color 0.8s ease;
 }
-.nav_button:hover,
-.title_letter1:hover,
-.title_letter2:hover {
-  color: yellow;
+.nav_button:hover {
+  color: #AA00FF;
 }
 .anchor_button {
   background-color: white;
-  border: solid 2px rgb(35, 68, 149);
+  border: solid 2px #3F51B5;
   color: #234495;
   margin-right: 0.4em;
   text-decoration: none;
@@ -156,8 +180,8 @@ margin-left: 0px;
   padding: 10px 20px;
 }
 .anchor_button:hover {
-  background-color: rgb(35, 68, 149);
-  border: solid 2px rgb(35, 68, 149);
+  background-color: #3F51B5;
+  border: solid 2px #3F51B5;
   color: white;
   margin-right: 0.4em;
   text-decoration: none;
@@ -187,7 +211,7 @@ margin-left: 0px;
   /*width: 52em;*/
 }
 .main_title {
-  color: rgb(35, 68, 149);
+  color: #3F51B5;
   font-size: 5em;
   text-shadow: -4px 3px 49px white;
 }
@@ -198,7 +222,7 @@ width: 8em;
 text-align: center;
 position: absolute;
 z-index: -1;
-color: rgb(35, 68, 149);
+color: #3F51B5;
 }
 
 /**************Responsive Web Page Section****************/
