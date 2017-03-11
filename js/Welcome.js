@@ -11,39 +11,6 @@ export default React.createClass({
       <main className="main_wrapper">
         <Header/>
         <SideNav/>
-        <section className="hex">
-          <div className="welcome_hex">
-            </div>
-            <div className="hex1w">
-            </div>
-            <div className="hex2w">
-              <div className="hex_row">
-                <div className="hex1">
-                </div>
-                <div className="hex2">
-                  <b className="title_letter1">Nicolas</b>
-                  <b className="title_letter1-2"></b>
-                </div>
-                <div className="hex3">
-                </div>
-              </div>
-
-              <div className="new_hex">
-                <div className="hex1">
-                </div>
-                <div className="hex2">
-                  <b className="title_letter2">Roybal</b>
-                  <b className="title_letter2-2"></b>
-                </div>
-                <div className="hex3">
-                </div>
-            </div>
-            <div className="hex3w">
-            </div>
-          </div>
-
-        </section>
-
         <section className="center_wrapper">
           <article className="shadow_box">
             < About/>
