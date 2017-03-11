@@ -11,7 +11,7 @@ export default React.createClass({
       <main className="main_wrapper">
         <Header/>
         <SideNav/>
-        <section className="center_wrapper">
+        <section>
           <article className="shadow_box">
             < About/>
           </article>

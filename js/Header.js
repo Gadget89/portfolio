@@ -9,12 +9,34 @@ export default React.createClass({
           <h1 className="header_name">
             Nicolas Roybal
           </h1>
+          <ul className="temp">
+            <li className="header_content">
+              <a>
+                About
+              </a>
+            </li>
+            <li className="header_content">
+              <a>
+                Projects
+              </a>
+            </li>
+            <li className="header_content">
+              <a>
+                Resume
+              </a>
+            </li>
+          </ul>
         </header>
         <header className="header_reletive">
           <ul className="temp">
             <li className="header_content">
               <a>
                 About
+              </a>
+            </li>
+            <li className="header_content">
+              <a>
+                Projects
               </a>
             </li>
             <li className="header_content">
