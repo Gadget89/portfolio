@@ -5,33 +5,46 @@ export default React.createClass({
   render() {
     return (
       <section>
-        <h2 className="article_title">
+        <h2 className="article_heading">
           Projects
         </h2>
         <article className="article_wrapper">
-          <h3 className="article_title">
-            The Gist App
-          </h3>
-          <img className="article_img" src="styles/assets/The-Gist-App.png">
+          <a className="article_title-left"
+            target="_blank"
+            href="https://the-gist-app.herokuapp.com/#/">
+            <b>The Gist App</b>
+          </a>
+          <img className="article_img-left" src="styles/assets/The-Gist-App.png">
           </img>
           <p className="article_text">
-            This was my final project for the cohort. The idea behind it was to create a note taking app for coders. Anytime a coder needs to research something, they usually get information overload with documentation. In The Gist App, a user can give their note a title, select what type of note is being made, put in a URL to reference the documentation, and create a note with the gist of what makes sense to the user. It organizes notes by type and puts them in the coresponding tab to easily reference. This app was made to be part of coders toolbelt to help keep notes organized and eaisily reference the full documentation if they ever need to.
+            For my final project at The Iron Yard, I wanted to create an app that could be part of a developers toolbelt to help keep their notes organized.
           </p>
-          <a
-            className="article_link"
-            href="https://the-gist-app.herokuapp.com/#/"
-            target="_blank">
-            Check it out
-            <i className="fa fa-globe fa-2x"></i>
-          </a>
-          <a
-            className="article_link"
-            href="https://github.com/Gadget89/gist-app"
-            target="_blank">
-            Check it out on
-            <i className="fa fa-github fa-2x"></i>
-          </a>
+          <p className="article_text">
+            After successfully logging in, a user is able to make a note type selection, give it a title, add a URL and create a note. The new note is added to the corresponding tab for easy reference. This app helps prevent information overload from web research and makes it easy to take notes for developers.
+          </p>
+          <p className="article_text">
+            Technologies: HTML, CSS, REACT, FIREBASE, AND HEROKU
+          </p>
         </article>
+
+        <article className="article_wrapper">
+          <a className="article_title-right"
+            target="_blank"
+            href="https://client-week-project.herokuapp.com/"
+            >
+            <b>All Things Spurs</b>
+          </a>
+          <img className="article_img-right"
+            href="https://client-week-project.herokuapp.com/" src="styles/assets/All_Things_Spurs.png">
+          </img>
+          <p className="article_text">
+            This was a the first group project I was a part of during my time at The Iron Yard. The objective was to create a Spurs blog as a team using all of the technologies we had aquired in the first half of the cohort. It was a great expierience to get adjusted to working on a development team. We used Trello as a management tool and Github for version control.
+          </p>
+          <p className="article_text">
+            Technologies: HTML, CSS, REACT, JASMINE, TRAVIS AND HEROKU
+          </p>
+        </article>
+
       </section>
     )
   }

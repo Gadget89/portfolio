@@ -14,10 +14,8 @@ export default React.createClass({
         <section>
           <article className="shadow_box">
             < About/>
+            < Projects/>
           </article>
-        <section className="shadow_box">
-          < Projects/>
-        </section>
         </section>
       </main>
     )
