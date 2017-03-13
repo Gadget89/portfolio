@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import Projects from './Projects'
 import About from './About'
 import SideNav from './SideNav'
+import ScrollNav from './ScrollNav'
 import Header from './Header'
 var FontAwesome = require('react-fontawesome');
 export default React.createClass({
@@ -11,6 +12,7 @@ export default React.createClass({
       <main className="main_wrapper">
         <Header/>
         <SideNav/>
+        <ScrollNav/>
         <section>
           <article className="shadow_box">
             < About/>

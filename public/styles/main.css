@@ -14,7 +14,7 @@ body {
 .article_img-left {
   width: 49%;
   float: left;
-  margin-right: 1em;;
+  margin-right: 1em;
 }
 .article_heading {
   color: #3F51B5;
@@ -127,6 +127,16 @@ margin-left: 0px;
 }
 .nav_button:hover {
   color: #AA00FF;
+}
+.nav_top {
+  display: inline-block;
+  /* float: right; */
+  right: 0;
+  position: fixed;
+  padding-top: 40em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  text-align: center;
 }
 .anchor_button {
   background-color: white;
