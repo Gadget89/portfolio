@@ -14,8 +14,20 @@ export default React.createClass({
             href="https://the-gist-app.herokuapp.com/#/">
             <b>The Gist App</b>
           </a>
-          <img className="article_img-left" src="styles/assets/The-Gist-App.png">
-          </img>
+
+          <a target="_blank"
+          href="https://the-gist-app.herokuapp.com/#/">
+            <div className="projOverlay_left">
+              <img className="image" src="styles/assets/The-Gist-App.png">
+              </img>
+              <div className="overlay">
+                <div className="text">
+                Check it out!
+                </div>
+              </div>
+            </div>
+          </a>
+
           <p className="article_text">
             For my final project at The Iron Yard, I wanted to create an app that could be part of a developers toolbelt to help keep their notes organized.
           </p>
@@ -34,9 +46,19 @@ export default React.createClass({
             >
             <b>All Things Spurs</b>
           </a>
-          <img className="article_img-right"
-            href="https://client-week-project.herokuapp.com/" src="styles/assets/All_Things_Spurs.png">
-          </img>
+          <a target="_blank"
+          href="https://client-week-project.herokuapp.com/">
+            <div className="projOverlay_right">
+              <img className="image" src="styles/assets/All_Things_Spurs.png">
+              </img>
+              <div className="overlay">
+                <div className="text">
+                Check it out!
+                </div>
+              </div>
+            </div>
+          </a>
+
           <p className="article_text">
             This was a the first group project I was a part of during my time at The Iron Yard. The objective was to create a Spurs blog as a team using all of the technologies we had aquired in the first half of the cohort. It was a great expierience to get adjusted to working on a development team. We used Trello as a management tool and Github for version control.
           </p>

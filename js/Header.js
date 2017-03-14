@@ -22,7 +22,7 @@ export default React.createClass({
             </li>
             <li className="header_content">
               <a>
-                Resume
+                Résumé
               </a>
             </li>
           </ul>
@@ -41,7 +41,7 @@ export default React.createClass({
             </li>
             <li className="header_content">
               <a>
-                Resume
+                Résumé
               </a>
             </li>
           </ul>
