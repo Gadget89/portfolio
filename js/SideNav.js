@@ -22,7 +22,7 @@ export default React.createClass({
           <div className="hex_middle"><i className="fa fa-codepen fa-2x"></i></div>
           <div className="hex_bottom"></div>
         </a>
-        <a className="nav_button" target="_blank" href="http://codepen.io/nickr999/">
+        <a className="nav_button" target="_blank" href="https://www.linkedin.com/in/nicolas-roybal-54bb1413a">
           <div className="hex_top"></div>
           <div className="hex_middle"><i className="fa fa-linkedin fa-2x"></i></div>
           <div className="hex_bottom"></div>

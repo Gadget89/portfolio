@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router'
 
 export default React.createClass({
+
   render() {
     return (
       <section>
@@ -18,10 +19,10 @@ export default React.createClass({
           <a target="_blank"
           href="https://the-gist-app.herokuapp.com/#/">
             <div className="projOverlay_left">
-              <img className="image" src="styles/assets/The-Gist-App.png">
+              <img className="projOverlay_image" src="styles/assets/The-Gist-App.png">
               </img>
               <div className="overlay">
-                <div className="text">
+                <div className="projOverlay_text">
                 Check it out!
                 </div>
               </div>
@@ -49,10 +50,10 @@ export default React.createClass({
           <a target="_blank"
           href="https://client-week-project.herokuapp.com/">
             <div className="projOverlay_right">
-              <img className="image" src="styles/assets/All_Things_Spurs.png">
+              <img className="projOverlay_image" src="styles/assets/All_Things_Spurs.png">
               </img>
               <div className="overlay">
-                <div className="text">
+                <div className="projOverlay_text">
                 Check it out!
                 </div>
               </div>
