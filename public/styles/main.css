@@ -85,6 +85,8 @@ margin-left: 0px;
 
 .header_name {
   margin-left: 1em;
+  margin-top: 1em;
+  font-size: 1.2em;
   display: inline-block;
   width: 8em;
 }
@@ -164,6 +166,7 @@ margin-left: 0px;
 }
 .profile_txt {
   line-height: 2;
+  text-indent: 1em;
 }
 .page_title {
   margin: .5em;

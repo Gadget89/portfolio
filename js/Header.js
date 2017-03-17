@@ -16,9 +16,9 @@ export default React.createClass({
     return (
       <section>
         <header className="header_fixed">
-          <h1 className="header_name">
+          <span className="header_name">
             Nicolas Roybal
-          </h1>
+          </span>
           <ul className="temp">
             <li className="header_content">
               <a onClick={this.scrollToTop}>
@@ -32,7 +32,7 @@ export default React.createClass({
             </li>
             <li className="header_content">
               <a onClick={this.scrollToResume}>
-                Résumé
+                Skills
               </a>
             </li>
           </ul>
@@ -51,7 +51,7 @@ export default React.createClass({
             </li>
             <li className="header_content">
               <a onClick={this.scrollToResume}>
-                Résumé
+                Skills
               </a>
             </li>
           </ul>

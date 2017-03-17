@@ -6,16 +6,17 @@ export default React.createClass({
     return (
       <section className="center_wrapper">
         <img className="profile_img" src="styles/assets/me.jpg"></img>
-        <h2 className="profile_title">Nicolas Roybal</h2>
-        <p className="sub_title">Front-End Developer | San Antonio, TX</p>
+        <span className="profile_title">Nicolas Roybal</span>
+        <span className="sub_title">Front-End Developer | San Antonio, TX</span>
           <p className="profile_txt">
-
-              <br></br>
-              I was born and raised in Northeastern New Mexico. Growing up in New Mexico I picked up a few hobbies including scoccer, skiing, and I gained my second degree black belt in Tae Kwon Do. In 2015 I relocated to San Antonio, TX to see what oppertunities a bigger city would have for me. I quickly found many jobs but ultimatly decided that I wanted to start on a new career path. Initally I was just going to "go back to school" but I found that was not time or cost effective for me. Luckily I stumbled upon a boot camp style front end engineering program at a school called The Iron Yard. I am currently attending the program and a little more than half way through it. Follow me through my journey here.
-            </p>
-
-
-
+            I began my journey to become a software developer in the Fall of 2016. I've had the great privilege to learn from accomplished instructors at The Iron Yard and I graduated from their Front-End Engineering program in February 2017.
+          </p>
+          <p className="profile_txt">
+            After gaining a solid foundation, I am excited for this lifetime adventure. My curiosity and passion for code continue driving me to keep learning as much as I can.
+          </p>
+          <p className="profile_txt">
+            I would like to join a great team and be involved in projects that I can be proud of. I invite you to check out my projects and if you are interested in helping make this happen, please feel free to contact me.
+          </p>
       </section>
     )
   }
