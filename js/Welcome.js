@@ -5,6 +5,7 @@ import About from './About'
 import SideNav from './SideNav'
 import ScrollNav from './ScrollNav'
 import Header from './Header'
+import Skills from './Skills'
 var FontAwesome = require('react-fontawesome');
 export default React.createClass({
   render() {
@@ -15,8 +16,9 @@ export default React.createClass({
         <ScrollNav/>
         <section>
           <article className="shadow_box">
-            < About/>
-            < Projects/>
+          < About/>
+          < Projects/>
+          < Skills/>
           </article>
         </section>
       </main>

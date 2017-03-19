@@ -74,6 +74,11 @@ margin-left: 0px;
   margin-right: 1em;
   right: 0;
   list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+.header_content:hover {
+  text-decoration: underline;
 }
 .temp {
   display: inline-block;
@@ -190,6 +195,7 @@ margin-left: 0px;
   /*width: 52em;*/
 }
 .profile_title {
+  text-align: center;
   font-size: 2em;
   color: #3F51B5;
   display: flex;
@@ -253,5 +259,28 @@ margin-left: 0px;
   opacity: 1;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+.skills_title {
+  display: block;
+  font-size: 2em;
+  color: #3F51B5;
+  margin: 0 auto;
+  text-align: center;
+  width: 5em;
+}
+.skills {
+  list-style: none;
+  line-height: 2em;
+  padding: 0;
+  text-align: center;
+  margin: 0 auto;
+  width: 9em;
+}
+.skill_img {
+  width: 4em;
+}
+.myContactInfo {
+  color: #3F51B5;
+  text-decoration: none;
 }
 /**************Responsive Web Page Section****************/
