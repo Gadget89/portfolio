@@ -40,18 +40,6 @@ export default React.createClass({
             Babel
           </li>
         </ul>
-        <img className="skill_img" src="styles/assets/HTML5.png">
-        </img>
-        <img className="skill_img" src="styles/assets/jest.svg">
-        </img>
-        <img className="skill_img" src="styles/assets/jquery.gif">
-        </img>
-        <img className="skill_img" src="styles/assets/nodejs.png">
-        </img>
-        <img className="skill_img" src="styles/assets/npm.png">
-        </img>
-        <img className="skill_img" src="styles/assets/react.png">
-        </img>
       </section>
     )
   }

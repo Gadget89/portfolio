@@ -6,14 +6,14 @@ export default React.createClass({
   render() {
     return (
       <section>
-        <h2 className="article_heading">
+        <span className="article_heading">
           Projects
-        </h2>
+        </span>
         <article className="article_wrapper">
           <a className="article_title-left"
             target="_blank"
             href="https://the-gist-app.herokuapp.com/#/">
-            <b>The Gist App</b>
+            The Gist App
           </a>
 
           <a target="_blank"
@@ -43,9 +43,8 @@ export default React.createClass({
         <article className="article_wrapper">
           <a className="article_title-right"
             target="_blank"
-            href="https://client-week-project.herokuapp.com/"
-            >
-            <b>All Things Spurs</b>
+            href="https://client-week-project.herokuapp.com/">
+            All Things Spurs
           </a>
           <a target="_blank"
           href="https://client-week-project.herokuapp.com/">
