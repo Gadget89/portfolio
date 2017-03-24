@@ -30,7 +30,7 @@ export default React.createClass({
           </a>
 
           <p className="article_text">
-            For my final project at The Iron Yard, I wanted to create an app that could be part of a developers toolbelt to help keep their notes organized.
+            I created an app for the developers toolbelt to help keep their notes organized.
           </p>
           <p className="article_text">
             After successfully logging in, a user is able to make a note type selection, give it a title, add a URL and create a note. The new note is added to the corresponding tab for easy reference. This app helps prevent information overload from web research and makes it easy to take notes for developers.

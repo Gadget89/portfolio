@@ -175,7 +175,7 @@ margin-left: 0px;
   margin: .5em;
 }
 .profile_img {
-  display: inline-block;
+  display: block;
   width: 30em;
   box-shadow: 0 8px 29px -6px black;
   margin-left: 1em;
