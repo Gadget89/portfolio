@@ -7,6 +7,9 @@ body {
   font-family: Helvetica;
   margin: 0;
 }
+li {
+  list-style: none;
+}
 .article_wrapper {
   height: 26em;
 }
@@ -261,12 +264,23 @@ margin-left: 0px;
   width: 5em;
 }
 .skills {
-  list-style: none;
-  line-height: 2em;
-  padding: 0;
+  background-color: #fafafa;
+  display: inline-flex;
   text-align: center;
-  margin: 0 auto;
-  width: 9em;
+  margin-left: 1em;
+}
+.skills:hover {
+  background-color: #FFA726;
+}
+.skills_wrapper {
+  display: block;
+  margin: 1em 3em;
+  height: 15em;
+}
+.skills ul {
+  height: 10em;
+  width: 14em;
+  padding: 1em;
 }
 .skill_img {
   width: 4em;
