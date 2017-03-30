@@ -18,8 +18,9 @@ export default React.createClass({
             After gaining a solid foundation, I am excited for this lifetime adventure. My curiosity and passion for code continue driving me to keep learning as much as I can.
           </p>
           <p className="profile_txt">
-            I would like to join a great team and be involved in projects that I can be proud of. I invite you to check out my projects and please feel free to <a
-            className="myContactInfo" onClick={this.scrollToContact}>
+            I would like to join a great team and be involved in projects that I can be proud of. I invite you to check out my projects and please feel free to <a href="https://form.jotform.us/70884700284156"
+            target="_blank"
+            className="myContactInfo">
               contact me.
             </a>
           </p>

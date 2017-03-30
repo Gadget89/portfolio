@@ -76,6 +76,7 @@ border-right: 1.625em solid transparent;
 margin-left: 0px;
 }
 .header_content {
+  color: #3F51B5;
   display: inline-block;
   margin-right: 1em;
   right: 0;
@@ -188,7 +189,7 @@ margin-left: 0px;
 .shadow_box {
   background-color: white;
   box-shadow: 0 8px 29px -6px black;
-  min-height: 160em;
+  min-height: 138em;
   height: auto;
   margin: 3em 7em;
   padding: 4em;
@@ -198,14 +199,14 @@ margin-left: 0px;
   text-align: center;
   font-size: 2em;
   color: #3F51B5;
-  display: flex;
-  margin: 0 auto;
+  display: inline;
+  margin: 0 5.5em;
   width: 7.5em;
 }
 .sub_title {
-  display: flex;
+  display: inline-block;
   font-size: 1.2em;
-  margin: 0 auto;
+  margin: 0 6em;
   width: 18em;
 }
 .projOverlay_left {

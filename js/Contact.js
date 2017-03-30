@@ -9,7 +9,7 @@ export default React.createClass({
           Contact
         </span>
         <div className="contact_form">
-          <a id="foxyform_embed_link_863031" href="http://www.foxyform.com/"></a>
+          <script type="text/javascript" src="https://form.jotform.us/jsform/70884700284156"></script>
         </div>
       </section>
     )

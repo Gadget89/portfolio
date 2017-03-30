@@ -11,9 +11,6 @@ export default React.createClass({
   scrollToResume() {
     window.scroll(0, 1600)
   },
-  scrollToContact() {
-    window.scroll(0, 2400)
-  },
 
   render() {
     return (
@@ -38,8 +35,11 @@ export default React.createClass({
                 Skills
               </a>
               </li>
-              <li className="header_content">
-                <a onClick={this.scrollToContact}>
+              <li  className="header_content">
+                <a
+                  className="header_content"
+                  href="https://form.jotform.us/70884700284156"
+                  target="_blank">
                   Contact
                 </a>
               </li>
@@ -63,7 +63,9 @@ export default React.createClass({
               </a>
             </li>
             <li className="header_content">
-              <a onClick={this.scrollToContact}>
+              <a
+                 className="header_content" href="https://form.jotform.us/70884700284156"
+                 target="_blank">
                 Contact
               </a>
             </li>
