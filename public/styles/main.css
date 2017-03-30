@@ -296,6 +296,7 @@ margin-left: 0px;
 }
 .myContactInfo {
   color: #3F51B5;
+  cursor: pointer;
   text-decoration: none;
 }
 /**************Responsive Web Page Section****************/

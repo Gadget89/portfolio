@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router'
 
 export default React.createClass({
+  scrollToContact() {
+    window.scroll(0, 2400)
+  },
   render() {
     return (
       <section className="center_wrapper">
@@ -15,7 +18,10 @@ export default React.createClass({
             After gaining a solid foundation, I am excited for this lifetime adventure. My curiosity and passion for code continue driving me to keep learning as much as I can.
           </p>
           <p className="profile_txt">
-            I would like to join a great team and be involved in projects that I can be proud of. I invite you to check out my projects and please feel free to <a className = "myContactInfo" href="mailto:nicolas.roybal@hotmail.com" data-rel="external">contact me.</a>
+            I would like to join a great team and be involved in projects that I can be proud of. I invite you to check out my projects and please feel free to <a
+            className="myContactInfo" onClick={this.scrollToContact}>
+              contact me.
+            </a>
           </p>
       </section>
     )
