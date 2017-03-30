@@ -6,6 +6,7 @@ import SideNav from './SideNav'
 import ScrollNav from './ScrollNav'
 import Header from './Header'
 import Skills from './Skills'
+import Contact from './Contact'
 var FontAwesome = require('react-fontawesome');
 export default React.createClass({
   render() {
@@ -19,6 +20,7 @@ export default React.createClass({
           < About/>
           < Projects/>
           < Skills/>
+          < Contact/>
           </article>
         </section>
       </main>

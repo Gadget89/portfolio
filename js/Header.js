@@ -11,6 +11,9 @@ export default React.createClass({
   scrollToResume() {
     window.scroll(0, 1600)
   },
+  scrollToContact() {
+    window.scroll(0, 2400)
+  },
 
   render() {
     return (
@@ -34,7 +37,12 @@ export default React.createClass({
               <a onClick={this.scrollToResume}>
                 Skills
               </a>
-            </li>
+              </li>
+              <li className="header_content">
+                <a onClick={this.scrollToContact}>
+                  Contact
+                </a>
+              </li>
           </ul>
         </header>
         <header className="header_reletive">
@@ -52,6 +60,11 @@ export default React.createClass({
             <li className="header_content">
               <a onClick={this.scrollToResume}>
                 Skills
+              </a>
+            </li>
+            <li className="header_content">
+              <a onClick={this.scrollToContact}>
+                Contact
               </a>
             </li>
           </ul>

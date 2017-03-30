@@ -188,7 +188,7 @@ margin-left: 0px;
 .shadow_box {
   background-color: white;
   box-shadow: 0 8px 29px -6px black;
-  min-height: 138em;
+  min-height: 160em;
   height: auto;
   margin: 3em 7em;
   padding: 4em;
@@ -271,6 +271,8 @@ margin-left: 0px;
 }
 .skills:hover {
   background-color: #FFA726;
+  color: white;
+  transition: .7s ease;
 }
 .skills_wrapper {
   display: block;
@@ -284,6 +286,13 @@ margin-left: 0px;
 }
 .skill_img {
   width: 4em;
+}
+.contact_wrapper {
+  margin-top: 14em;
+}
+.contact_form {
+  margin: 0 auto;
+  width: 22em;
 }
 .myContactInfo {
   color: #3F51B5;
