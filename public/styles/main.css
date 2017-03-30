@@ -180,7 +180,7 @@ margin-left: 0px;
 }
 .profile_img {
   display: block;
-  width: 30em;
+  width: 48%;
   box-shadow: 0 8px 29px -6px black;
   margin-left: 1em;
   margin-bottom: 1em;
@@ -199,15 +199,16 @@ margin-left: 0px;
   text-align: center;
   font-size: 2em;
   color: #3F51B5;
-  display: inline;
-  margin: 0 5.5em;
-  width: 7.5em;
+  display: inline-block;
+  /*margin: 0 2.9em;*/
+  width: 50%;
 }
 .sub_title {
   display: inline-block;
   font-size: 1.2em;
-  margin: 0 6em;
-  width: 18em;
+  /*margin: 0 2.1em;*/
+  text-align: center;
+  width: 50%;
 }
 .projOverlay_left {
   display: inline-block;
@@ -255,6 +256,11 @@ margin-left: 0px;
   opacity: 1;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+.section_divider {
+  border-bottom: solid 4px #3F51B5;
+  display: inline-block;
+  width: 50%;
 }
 .skills_title {
   display: block;

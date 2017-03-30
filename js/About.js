@@ -10,7 +10,10 @@ export default React.createClass({
       <section className="center_wrapper">
         <img className="profile_img" src="styles/assets/me.jpg"></img>
         <span className="profile_title">Nicolas Roybal</span>
-        <span className="sub_title">Front-End Developer | San Antonio, TX</span>
+        <span className="sub_title">Front-End Developer</span>
+        <span className="section_divider">
+
+        </span>
           <p className="profile_txt">
             I began my journey to become a software developer in the Fall of 2016. I've had the great privilege to learn from accomplished instructors at The Iron Yard and I graduated from their Front-End Engineering program in February 2017.
           </p>
