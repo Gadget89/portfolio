@@ -6,6 +6,8 @@ import SideNav from './SideNav'
 import ScrollNav from './ScrollNav'
 import Header from './Header'
 import Skills from './Skills'
+import Carousel from './Carousel'
+
 var FontAwesome = require('react-fontawesome');
 export default React.createClass({
   render() {
@@ -17,7 +19,7 @@ export default React.createClass({
         <section>
           <article className="shadow_box">
           < About/>
-          < Projects/>
+          < Carousel/>
           < Skills/>
           </article>
         </section>

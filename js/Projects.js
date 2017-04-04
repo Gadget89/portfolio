@@ -1,11 +1,33 @@
 import React from 'react'
 import { Link } from 'react-router'
+import ReactSiema from 'react-siema'
 
+// -----------------------siema
+const Slide = (props) => <img {...props} alt="slide" />
+
+const App = () => {
+    let slider
+
+    return (
+        <div className="slider">
+            <ReactSiema ref={siema => slider = siema}>
+                <Slide src="styles/assets/me.jpg" />
+                <Slide src="styles/assets/All_Things_Spurs.png" />
+                <Slide src="styles/assets/me.jpg" />
+            </ReactSiema>
+            <span className="slider_wrapper">
+              <button className="#" onClick={() => slider.prev()}>prev</button>
+              <button className="#" onClick={() => slider.next()}>next</button>
+            </span>
+        </div>
+    )
+}
 export default React.createClass({
 
   render() {
     return (
       <section>
+        <App/>
         <span className="article_heading">
           Projects
         </span>

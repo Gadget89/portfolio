@@ -306,4 +306,35 @@ margin-left: 0px;
   cursor: pointer;
   text-decoration: none;
 }
+/*.slider {
+  z-index: 1;
+}
+.slider_wrapper {
+  z-index: 2;
+}*/
+/*vvvvvvvvvvv*/
+/* Slideshow container */
+.mySlides {
+  background-color: black;
+   /*border: solid 5px;*/
+  /*  display: flex;*/
+   /*height: 45%;*/
+   height: 33em;
+   margin: 0 auto;
+   margin-left: 10em;
+   padding: 2em;
+   vertical-align: top;
+   /*width: 60%;*/
+   display: none;
+   width: 33em;
+}
+.first_photo {
+  display: inline-block;
+  height: 20em;
+  width: 40em;
+}
+.wrapper {
+  height: 50em;
+  width: 100%;
+}
 /**************Responsive Web Page Section****************/
