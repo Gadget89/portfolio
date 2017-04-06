@@ -11,9 +11,9 @@ const App = () => {
     return (
         <div className="slider">
             <ReactSiema ref={siema => slider = siema}>
-                <Slide src="styles/assets/me.jpg" />
-                <Slide src="styles/assets/All_Things_Spurs.png" />
-                <Slide src="styles/assets/me.jpg" />
+                <Slide src="styles/assets/laptop-gist.png" />
+                <Slide src="styles/assets/laptop-gist.png" />
+                <Slide src="styles/assets/laptop-blog.png" />
             </ReactSiema>
             <span className="slider_wrapper">
               <button className="#" onClick={() => slider.prev()}>prev</button>
