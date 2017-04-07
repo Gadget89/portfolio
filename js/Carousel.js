@@ -36,7 +36,15 @@ showDivs(n) {
               Projects
             </span>
           <div className="mySlides first_photo" id="image">
-            <img className="slide_image" src="styles/assets/laptop-gist.png" />
+            <a target="_blank"
+            href="https://the-gist-app.herokuapp.com/#/">
+              <div className="projOverlay_left">
+                <img className="projOverlay_image" className="slide_image" src="styles/assets/laptop-gist.png">
+                </img>
+                <div className="overlay">
+                </div>
+              </div>
+            </a>
             <div className="caption">
               <a className="article_title-left"
                 target="_blank"
@@ -50,12 +58,20 @@ showDivs(n) {
                 After successfully logging in, a user is able to make a note type selection, give it a title, add a URL and create a note. The new note is added to the corresponding tab for easy reference. This app helps prevent information overload from web research and makes it easy to take notes for developers.
               </p>
               <p className="article_text">
-                Technologies: HTML, CSS, REACT, FIREBASE, AND HEROKU
+                Technologies: HTML, CSS, React.js, Firebase and Heroku
               </p>
             </div>
           </div>
           <div className="mySlides" id="image">
-            <img className="slide_image" src="styles/assets/laptop-sudoku.png" />
+            <a target="_blank"
+            href="https://sudoku-puzzle-sa.herokuapp.com/#/">
+              <div className="projOverlay_left">
+                <img className="projOverlay_image" className="slide_image" src="styles/assets/laptop-sudoku.png">
+                </img>
+                <div className="overlay">
+                </div>
+              </div>
+            </a>
             <div className="caption">
               <a className="article_title-left"
                 target="_blank"
@@ -69,12 +85,20 @@ showDivs(n) {
                 You simply put in the given numbers from your puzzle and it will fill in all the empty cells. It can also identify if a puzzle you entered can be solved. Finally, it displays how many numbers it attempted for each cell.
               </p>
               <p className="article_text">
-                Technologies: HTML, CSS, REACT, FIREBASE, AND HEROKU
+                Technologies: HTML, CSS, React.js and Heroku
               </p>
             </div>
           </div>
           <div className="mySlides" id="image">
-            <img className="slide_image" src="styles/assets/laptop-blog.png" />
+            <a target="_blank"
+            href="https://client-week-project.herokuapp.com/">
+              <div className="projOverlay_left">
+                <img className="projOverlay_image" className="slide_image" src="styles/assets/laptop-blog.png">
+                </img>
+                <div className="overlay">
+                </div>
+              </div>
+            </a>
             <div className="caption">
               <a className="article_title-right"
                 target="_blank"
@@ -85,7 +109,7 @@ showDivs(n) {
                 This was a the first group project I was a part of during my time at The Iron Yard. The objective was to create a Spurs blog as a team using all of the technologies we had aquired in the first half of the cohort. It was a great expierience to get adjusted to working on a development team. We used Trello as a management tool and Github for version control.
               </p>
               <p className="article_text">
-                Technologies: HTML, CSS, REACT, JASMINE, TRAVIS AND HEROKU
+                Technologies: HTML, CSS, React.js, Jasmine, Travis and Heroku
               </p>
             </div>
           </div>

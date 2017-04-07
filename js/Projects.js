@@ -41,7 +41,7 @@ export default React.createClass({
           <a target="_blank"
           href="https://the-gist-app.herokuapp.com/#/">
             <div className="projOverlay_left">
-              <img className="projOverlay_image" src="styles/assets/The-Gist-App.png">
+              <img className="projOverlay_image" className="slide_image" src="styles/assets/laptop-gist.png">
               </img>
               <div className="overlay">
                 <div className="projOverlay_text">
