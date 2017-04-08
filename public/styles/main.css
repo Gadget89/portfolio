@@ -180,7 +180,8 @@ margin-left: 0px;
 }
 .profile_img {
   display: block;
-  width: 48%;
+  max-width: 48%;
+  height: 40em;
   box-shadow: 0 8px 29px -6px black;
   margin-left: 1em;
   margin-bottom: 1em;
@@ -346,4 +347,5 @@ margin-left: 0px;
   margin: 0 auto;
   width: 9em;
 }
+
 /**************Responsive Web Page Section****************/

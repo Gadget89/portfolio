@@ -1,5 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router'
+import ReactSiema from 'react-siema'
+const Slide = (props) => <img {...props} alt="slide" />
+
+const App = () => {
+    let slider
+
+    return (
+        <div className="slider">
+            <ReactSiema ref={siema => slider = siema}>
+                <Slide src="styles/assets/me1.jpg" />
+                <Slide src="styles/assets/me.jpg" />
+            </ReactSiema>
+        </div>
+    )
+}
 
 export default React.createClass({
   scrollToContact() {
@@ -8,7 +23,8 @@ export default React.createClass({
   render() {
     return (
       <section className="center_wrapper">
-        <img className="profile_img" src="styles/assets/me.jpg"></img>
+
+        <img className="profile_img" src="styles/assets/me1.jpg"></img>
         <span className="profile_title">Nicolas Roybal</span>
         <span className="sub_title">Front-End Developer</span>
         <span className="section_divider">
