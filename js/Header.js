@@ -43,6 +43,11 @@ export default React.createClass({
                   Contact
                 </a>
               </li>
+              <li className="header_content">
+                <Link
+                  to="/Resume"
+                  className="header_content">Résumé</Link>
+              </li>
           </ul>
         </header>
         <header className="header_reletive">
@@ -68,6 +73,11 @@ export default React.createClass({
                  target="_blank">
                 Contact
               </a>
+            </li>
+            <li className="header_content">
+              <Link
+                to="/Resume"
+                className="header_content">Résumé</Link>
             </li>
           </ul>
         </header>
