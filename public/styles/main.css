@@ -142,7 +142,7 @@ margin-left: 0px;
   display: inline-block;
   right: 0;
   position: fixed;
-  padding-top: 45em;
+  padding-top: 43em;
   margin-left: 1.5em;
   margin-right: 1.5em;
   text-align: center;
@@ -190,7 +190,7 @@ margin-left: 0px;
 .shadow_box {
   background-color: white;
   box-shadow: 0 8px 29px -6px black;
-  min-height: 138em;
+  min-height: 144em;
   height: auto;
   margin: 3em 7em;
   padding: 4em;
@@ -202,14 +202,14 @@ margin-left: 0px;
   color: #3F51B5;
   display: inline-block;
   /*margin: 0 2.9em;*/
-  width: 50%;
+  width: 68%;
 }
 .sub_title {
   display: inline-block;
   font-size: 1.2em;
   /*margin: 0 2.1em;*/
   text-align: center;
-  width: 50%;
+  width: 68%;
 }
 .projOverlay_left {
   display: inline-block;
@@ -241,7 +241,7 @@ margin-left: 0px;
 .section_divider {
   border-bottom: solid 4px #3F51B5;
   display: inline-block;
-  width: 50%;
+  width: 68%;
 }
 .skills_title {
   display: block;
@@ -251,30 +251,23 @@ margin-left: 0px;
   text-align: center;
   width: 5em;
 }
-.skills {
-  background-color: #fafafa;
-  display: inline-flex;
-  text-align: center;
-  margin-left: 1em;
+.block {
+  width: 38em;
+    margin: 1em auto;
 }
-.skills:hover {
-  background-color: #FFA726;
-  color: white;
-  transition: .7s ease;
+.skill_block {
+  position: relative;
+  margin-top: -25em;
+  display: inline-block;
+  margin-right: -2em;
+  z-index: 5;
 }
-.skills_wrapper {
-  display: block;
-  margin: 1em 3em;
-  height: 15em;
+.skill_block1 {
+  margin-left: 9em;
+    display: inline-block;
+    margin-bottom: 14em;
 }
-.skills ul {
-  height: 10em;
-  width: 14em;
-  padding: 1em;
-}
-.skill_img {
-  width: 4em;
-}
+
 .contact_wrapper {
   margin-top: 14em;
 }
@@ -298,7 +291,7 @@ margin-left: 0px;
   width: 100%;
 }
 .wrapper {
-  height: 47em;
+  height: 48em;
   width: 100%;
 }
 .slide_left, .slide_right {

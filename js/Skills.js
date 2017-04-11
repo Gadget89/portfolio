@@ -9,62 +9,15 @@ export default React.createClass({
         <span className="skills_title">
           Skills
         </span>
-        <div className="skills_wrapper">
-          <div className="skills">
-            <ul>
-              <li>
-                <i className="fa fa-laptop fa-3x" aria-hidden="true"></i>
-              </li>
-              <li>
-                <b>HTML/CSS</b>
-              </li>
-              <br></br>
-              <li>
-                HTML5 & CSS3
-              </li>
-            </ul>
+        <div className="block">
+          <div>
+            <img className="skill_block1" src="styles/assets/top-hex.png"></img>
+            <div className="test">
+            </div>
           </div>
-          <div className="skills">
-            <ul>
-              <li>
-                <i className="fa fa-code fa-3x" aria-hidden="true"></i>
-              </li>
-              <li>
-                <b>Front End Development</b>
-              </li>
-              <br></br>
-              <li>
-                Javascript, jQuery & React.js
-              </li>
-            </ul>
-          </div>
-          <div className="skills">
-            <ul>
-              <li>
-                <i className="fa fa-server fa-3x" aria-hidden="true"></i>
-              </li>
-              <li>
-                <b>Back End Development</b>
-              </li>
-              <br></br>
-              <li>
-                Node.js, Express.js, & Firebase
-              </li>
-            </ul>
-          </div>
-          <div className="skills">
-            <ul>
-              <li>
-                <i className="fa fa-terminal fa-3x" aria-hidden="true"></i>
-              </li>
-              <li>
-                <b>And More</b>
-              </li>
-              <br></br>
-              <li>
-                Git, GitHub, NPM, AJAX, Jest, & Babel
-              </li>
-            </ul>
+          <div>
+            <img className="skill_block" src="styles/assets/left-hex.png"></img>
+            <img className="skill_block" src="styles/assets/right-hex.png"></img>
           </div>
         </div>
       </section>
