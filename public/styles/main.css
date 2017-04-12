@@ -356,6 +356,10 @@ margin-left: 0px;
 @media screen and (max-device-width : 480px) {
     .article_heading {
       font-size: 4em;
+      margin: 1em auto;
+    }
+    .center_wrapper {
+      height: auto;
     }
     .nav_bar {
       background-color: white;
@@ -374,9 +378,53 @@ margin-left: 0px;
     .nav_top {
       display: none;
     }
-
+    .profile_img {
+      height: 48em;
+    }
+    .slide_image,
+    .overlay {
+      width: 57em;
+    }
+    .slider_nav {
+      position: absolute;
+      margin: 8em auto;
+      margin-left: 36%;
+    }
+    .caption {
+      margin-top: 6em;
+      font-size: 1.5em;
+      width: 100%;
+    }
     .shadow_box {
       margin: 0;
+      min-height: 206em;
+    }
+    .section_divider {
+      width: 51%;
+    }
+    .profile_title {
+      width: 51%;
+      font-size: 4em;
+    }
+    .sub_title {
+      font-size: 2.2em;
+      width: 51%;
+    }
+    .profile_txt {
+      font-size: 1.5em;
+    }
+    .skills_title {
+      margin-top: 20em;
+    }
+    .header_name {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    .temp {
+      font-size: 2em;
+    }
+    .header_reletive {
+      height: 5.7em;
     }
 }
 @media only screen and (min-width: 768px) {
@@ -386,12 +434,8 @@ margin-left: 0px;
 @media screen
   and (min-device-width: 1200px)
   and (max-device-width: 1400px) {
-    .profile_title {
-      width: 62%;
-    }
-    .sub_title {
-      width: 62%;
-    }
+    .profile_title,
+    .sub_title,
     .section_divider {
       width: 62%;
     }
