@@ -414,17 +414,20 @@ margin-left: 0px;
       font-size: 1.5em;
     }
     .skills_title {
-      margin-top: 20em;
+      font-size: 4em;
+      margin-top: 12em;
     }
     .header_name {
-      font-size: 1.5em;
-      font-weight: bold;
+      font-size: 2em;
     }
     .temp {
       font-size: 2em;
     }
     .header_reletive {
       height: 5.7em;
+    }
+    .block {
+      margin-bottom: 25em;
     }
 }
 @media only screen and (min-width: 768px) {
