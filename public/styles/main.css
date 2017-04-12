@@ -10,6 +10,9 @@ body {
 li {
   list-style: none;
 }
+a:link {
+  text-decoration: none;
+}
 .article_wrapper {
   height: 26em;
 }

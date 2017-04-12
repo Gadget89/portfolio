@@ -37,7 +37,6 @@ export default React.createClass({
               </li>
               <li  className="header_content">
                 <a
-                  className="header_content"
                   href="https://form.jotform.us/70884700284156"
                   target="_blank">
                   Contact
@@ -45,8 +44,9 @@ export default React.createClass({
               </li>
               <li className="header_content">
                 <Link
-                  to="/Resume"
-                  className="header_content">Résumé</Link>
+                  to="/Resume">
+                  Résumé
+                </Link>
               </li>
           </ul>
         </header>
@@ -69,15 +69,16 @@ export default React.createClass({
             </li>
             <li className="header_content">
               <a
-                 className="header_content" href="https://form.jotform.us/70884700284156"
-                 target="_blank">
+                href="https://form.jotform.us/70884700284156"
+                target="_blank">
                 Contact
               </a>
             </li>
             <li className="header_content">
               <Link
-                to="/Resume"
-                className="header_content">Résumé</Link>
+                to="/Resume">
+                Résumé
+              </Link>
             </li>
           </ul>
         </header>
