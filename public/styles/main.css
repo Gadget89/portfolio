@@ -353,8 +353,31 @@ margin-left: 0px;
 }
 
 /**************Responsive Web Page Section****************/
-@media only screen and (min-width: 600px) {
-  /* For tablets*/
+@media screen and (max-device-width : 480px) {
+    .article_heading {
+      font-size: 4em;
+    }
+    .nav_bar {
+      background-color: white;
+      bottom: 0;
+      display: flex;
+      margin: 0;
+      padding-bottom: 2em;
+      padding-left: 38%;
+      padding-right: 38%;
+      padding-top: 2em;
+      z-index: 15;
+    }
+    a.nav_button {
+      padding-right: 1em;
+    }
+    .nav_top {
+      display: none;
+    }
+
+    .shadow_box {
+      margin: 0;
+    }
 }
 @media only screen and (min-width: 768px) {
   /* For desktop*/
