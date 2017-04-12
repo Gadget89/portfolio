@@ -171,6 +171,26 @@ margin-left: 0px;
   width: 100%;
   height: 28em;
 }
+.profile_title {
+  text-align: center;
+  font-size: 2em;
+  color: #3F51B5;
+  display: inline-block;
+  /*margin: 0 2.9em;*/
+  width: 68%;
+}
+.sub_title {
+  display: inline-block;
+  font-size: 1.2em;
+  /*margin: 0 2.1em;*/
+  text-align: center;
+  width: 68%;
+}
+.section_divider {
+  border-bottom: solid 4px #3F51B5;
+  display: inline-block;
+  width: 68%;
+}
 .profile_txt {
   line-height: 2;
   text-indent: 1em;
@@ -196,21 +216,7 @@ margin-left: 0px;
   padding: 4em;
   text-align: left;
 }
-.profile_title {
-  text-align: center;
-  font-size: 2em;
-  color: #3F51B5;
-  display: inline-block;
-  /*margin: 0 2.9em;*/
-  width: 68%;
-}
-.sub_title {
-  display: inline-block;
-  font-size: 1.2em;
-  /*margin: 0 2.1em;*/
-  text-align: center;
-  width: 68%;
-}
+
 .projOverlay_left {
   display: inline-block;
   position: relative;
@@ -238,11 +244,7 @@ margin-left: 0px;
 .projOverlay_left:hover .overlay {
   opacity: 0.4;
 }
-.section_divider {
-  border-bottom: solid 4px #3F51B5;
-  display: inline-block;
-  width: 68%;
-}
+
 .skills_title {
   display: block;
   font-size: 2em;
@@ -348,3 +350,41 @@ margin-left: 0px;
 }
 
 /**************Responsive Web Page Section****************/
+@media only screen and (min-width: 600px) {
+  /* For tablets*/
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop*/
+}
+/* ----------- Non-Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1400px) {
+    .profile_title {
+      width: 62%;
+    }
+    .sub_title {
+      width: 62%;
+    }
+    .section_divider {
+      width: 62%;
+    }
+    .article_heading {
+      margin-top: 26%;
+    }
+    .slide_image {
+      width: 36em;
+    }
+    .caption {
+      width: 26em;
+    }
+    .nav_top {
+      padding-top: 39em;
+    }
+    .wrapper {
+      height: 58em;
+    }
+    .shadow_box {
+      min-height: 147em;
+    }
+}
