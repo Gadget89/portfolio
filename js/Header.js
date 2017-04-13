@@ -43,10 +43,11 @@ export default React.createClass({
                 </a>
               </li>
               <li className="header_content">
-                <Link
-                  to="/Resume">
+                <a
+                  href="https://drive.google.com/file/d/0B52FYDuPpv0fdjAzcnJSSUttMFU/view?usp=sharing"
+                  target="_blank">
                   Résumé
-                </Link>
+                </a>
               </li>
           </ul>
         </header>
@@ -75,10 +76,11 @@ export default React.createClass({
               </a>
             </li>
             <li className="header_content">
-              <Link
-                to="/Resume">
+              <a
+                href="https://drive.google.com/file/d/0B52FYDuPpv0fdjAzcnJSSUttMFU/view?usp=sharing"
+                target="_blank">
                 Résumé
-              </Link>
+              </a>
             </li>
           </ul>
         </header>
