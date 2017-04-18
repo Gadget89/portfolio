@@ -20,17 +20,17 @@ export default React.createClass({
             Nicolas Roybal
           </span>
           <ul className="temp">
-            <li className="header_content">
+            <li className="header_content_nav">
               <a onClick={this.scrollToTop}>
                 About
               </a>
             </li>
-            <li className="header_content">
+            <li className="header_content_nav">
               <a onClick={this.scrollToProjects}>
                 Projects
               </a>
             </li>
-            <li className="header_content">
+            <li className="header_content_nav">
               <a onClick={this.scrollToResume}>
                 Skills
               </a>
@@ -53,17 +53,17 @@ export default React.createClass({
         </header>
         <header className="header_reletive">
           <ul className="temp">
-            <li className="header_content">
+            <li className="header_content_nav">
               <a onClick={this.scrollToTop}>
                 About
               </a>
             </li>
-            <li className="header_content">
+            <li className="header_content_nav">
               <a onClick={this.scrollToProjects}>
                 Projects
               </a>
             </li>
-            <li className="header_content">
+            <li className="header_content_nav">
               <a onClick={this.scrollToResume}>
                 Skills
               </a>
