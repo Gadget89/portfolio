@@ -24,7 +24,7 @@ export default React.createClass({
     return (
       <section className="center_wrapper">
 
-        <img className="profile_img" src="styles/assets/me1.jpg"></img>
+        <img className="profile_img" src="styles/assets/nicolas.jpg"></img>
         <span className="profile_title">Nicolas Roybal</span>
         <span className="sub_title">Front-End Developer</span>
         <span className="section_divider">
