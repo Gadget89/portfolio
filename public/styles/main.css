@@ -178,21 +178,22 @@ margin-left: 0px;
   text-align: center;
   font-size: 2em;
   color: #3F51B5;
-  display: inline-block;
+  display: block;
   /*margin: 0 2.9em;*/
-  width: 68%;
+  width: 50%;
 }
 .sub_title {
-  display: inline-block;
+  display: block;
   font-size: 1.2em;
   /*margin: 0 2.1em;*/
   text-align: center;
-  width: 68%;
+  width: 50%;
 }
 .section_divider {
   border-bottom: solid 4px #3F51B5;
-  display: inline-block;
-  width: 68%;
+  display: block;
+  margin-top: 1em;
+  width: 50%;
 }
 .profile_txt {
   line-height: 2;
@@ -204,10 +205,11 @@ margin-left: 0px;
 .profile_img {
   display: block;
   max-width: 48%;
-  height: 40em;
+  /*height: 40em;*/
   box-shadow: 0 8px 29px -6px black;
   margin-left: 1em;
   margin-bottom: 1em;
+  margin-top: -6em;
   float: right;
 }
 .shadow_box {
@@ -382,7 +384,8 @@ margin-left: 0px;
       display: none;
     }
     .profile_img {
-      height: 48em;
+      max-width: 100%;
+      margin: 1em auto;
     }
     .slide_image,
     .overlay {
@@ -403,15 +406,15 @@ margin-left: 0px;
       min-height: 206em;
     }
     .section_divider {
-      width: 51%;
+      width: inherit;
     }
     .profile_title {
-      width: 51%;
+      width: inherit;
       font-size: 4em;
     }
     .sub_title {
       font-size: 2.2em;
-      width: 51%;
+      width: inherit;
     }
     .profile_txt {
       font-size: 1.5em;
