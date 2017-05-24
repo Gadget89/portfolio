@@ -13,6 +13,17 @@ li {
 a:link {
   text-decoration: none;
 }
+/*TEMPORARY PREVIEW NOTIFICATION*/
+.temp_wrapper {
+
+}
+.temp_button {
+  background-color: #3F51B5;
+  color: white;
+  cursor: pointer;
+  padding: 1em;
+  text-align: center;
+}
 .article_wrapper {
   height: 26em;
 }
