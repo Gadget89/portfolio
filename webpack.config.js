@@ -5,6 +5,7 @@ module.exports = {
       path: "./public/dist",
       filename: "bundle.js"
   },
+  watch: true,
 module: {
       loaders: [
         {
