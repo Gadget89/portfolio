@@ -46,10 +46,10 @@ export default React.createClass({
           </p>
           <a
             className="temp_wrapper"
-            href="https://nicolas-roybal-portfolio-light.herokuapp.com/#/"
+            href="www.nicolasroybal.com"
             title="Click here to preview my new portfolio under construction!">
             <p className="temp_button">
-              Click here to preview my new portfolio under construction!
+              Click here to check out my new portfolio!
             </p>
           </a>
       </section>
