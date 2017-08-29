@@ -2,14 +2,13 @@
   "name": "nicolas-roybal-portfolio",
   "version": "1.0.1",
   "engines": {
-    "node": "8.2.1",
+    "node": "8.1.4",
     "npm": "5.3.0"
   },
   "description": "2017-portfolio",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "heroku-postbuild": "webpack",
     "test": "jest"
   },
   "author": "",
