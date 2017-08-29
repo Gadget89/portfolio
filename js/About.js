@@ -46,8 +46,8 @@ export default React.createClass({
           </p>
           <a
             className="temp_wrapper"
-            href="www.nicolasroybal.com"
-            title="Click here to preview my new portfolio under construction!">
+            href="http://nicolasroybal.com/"
+            title="Click here to check out my new portfolio!">
             <p className="temp_button">
               Click here to check out my new portfolio!
             </p>
